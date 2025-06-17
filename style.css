@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fef9f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #f7c8a1;
+    color: #3e2723;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #6d4c41;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fffaf5;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+nav a {
+    background-color: #ffe5b4;
+    color: #4e342e;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffd19c;
+}
+
+a {
+    color: #d2691e;
+    text-decoration: none;
+}
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+ul,
+ol {
+    background-color: #fff2e1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ul li,
+ol li {
+    margin-bottom: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
